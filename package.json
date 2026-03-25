@@ -1,0 +1,18 @@
+{
+  "name": "HelloDocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test.js --exit"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "supertest": "^7.2.2"
+  }
+}
