@@ -2,7 +2,7 @@ import request from 'supertest';
 import server from './app.js';
 
 describe('GET /', () => {
-  it('should return Hello Donald Trump 🥳', (done) => {
+  it('should return Hello Donald Tru/mp 🥳', (done) => {
     request(server)
       .get('/')
       .expect(200)
